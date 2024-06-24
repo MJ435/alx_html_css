@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Assignment - Cool Webpage</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tweets.html">Tweets</a></li>
+            <link href="base.css" rel="stylesheet">
+            <link href="styles.css" rel="stylesheet">
+        </ul>
+        <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; 
+        }
+        main {
+            display: flex;
+            flex-direction: row;
+            flex: auto;
+        }
+        article {
+            flex: 2;
+            overflow-y: auto;
+        }
+        aside {
+            flex: 1;
+            overflow-y: auto;
+        }
+        header, footer {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border: 1px solid #e0e0e0;
+        }
+        .container {
+            padding: 20px;
+        }
+        </style>
+    </header>
+    <body class="works_on_smartphone">
+        <header>
+            <div class="container">
+                Content of the <header> tag
+            </div>
+        </header>
+    <main>
+        <article>
+            <h1>Let's begin!!</h1>
+            <p>Hello! I'm excited to share my journey with you through this portfolio.</p>
+    
+            <h2>About Me</h2>
+            <p>My name is Joseph Michael ,a.k.a MJ, and I am passionate about web development. I enjoy creating beautiful and functional websites.</p>
+    
+            <h3>My Interests</h3>
+            <p>I love coding, designing, and learning new technologies. When I'm not working on web development projects, I play basketball and enjoy photography.</p>
+    
+            <a href="https://www.example.com">
+                <img src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png" alt="ALX Logo" style="width:200px;height:auto;">
+             </a>
+
+            <h4>Meet the Learners</h4>
+             <table>
+                 <thead>
+                     <tr>
+                         <th>Name</th>
+                         <th>Age</th>
+                         <th>Country</th>
+                     </tr>
+                 </thead>
+                 <tbody>
+                     <tr>
+                         <td>John</td>
+                         <td>25</td>
+                         <td>USA</td>
+                     </tr>
+                     <tr>
+                         <td>Emily</td>
+                         <td>28</td>
+                         <td>Canada</td>
+                     </tr>
+                     <tr>
+                         <td>Michael</td>
+                         <td>32</td>
+                         <td>Australia</td>
+                     </tr>
+                     <tr>
+                         <td>Sophia</td>
+                         <td>21</td>
+                         <td>UK</td>
+                     </tr>
+                 </tbody>
+             </table>
+         </article>
+        </article>
+        <aside>
+            <p>Placeholder to add comment thread later.</p>
+        </aside>
+    </main>
+    <footer>
+        <p>Made by MJ - <a href="https://www.example.com" target="_blank">here</a>.</p>
+    </footer>
+</body>
+</html>
