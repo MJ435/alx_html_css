@@ -214,3 +214,66 @@ main section:nth-of-type(2) h2 {
     font-size: 16px;
     margin-left: 10px;
 }
+/* Membership */
+.membership-section {
+    background: #fff;
+    color: #333;
+    padding: 40px 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.membership-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.membership-blocks {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.membership-block {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1 1 calc(25% - 20px);
+    max-width: calc(25% - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.membership-block img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.membership-block h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.membership-block p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.membership-block button {
+    padding: 10px 20px;
+    background: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.membership-block button:hover {
+    background: #2980b9;
+}
