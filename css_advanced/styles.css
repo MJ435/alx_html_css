@@ -5,20 +5,19 @@
     box-sizing: border-box;
 }
 
-/* Body */
+/* Body Styling */
 body {
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
-    padding: 20px;
 }
 
-/* Header */
+/* Header Styling */
 header {
     background: #333;
     color: #fff;
-    padding: 20px 0;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,94 +33,100 @@ header img {
     height: 40px;
 }
 
-/* Banner */
-main section {
-    margin: 20px 0;
-    padding: 20px;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+nav {
+    display: flex;
 }
 
-main section h1, main section h2, main section h3 {
-    margin-bottom: 10px;
+nav a {
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Banner Section */
+main section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url('banner-background.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 60px 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+main section > div {
+    max-width: 45%;
+}
+
+main section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
 }
 
 main section p {
+    font-size: 18px;
     margin-bottom: 20px;
 }
 
 main section button {
     padding: 10px 20px;
-    background: #333;
+    background: #e67e22;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 16px;
 }
 
 main section button:hover {
-    background: #555;
+    background: #d35400;
 }
 
-/* Quote */
-section blockquote {
-    font-style: italic;
-    margin: 10px 0;
-}
-
-section cite {
-    display: block;
-    margin-top: 10px;
-    font-weight: bold;
-}
-
-/* Video and Membership */
-section div {
+/* Features Section */
+main section:nth-of-type(2) {
+    background: #fff;
+    color: #333;
+    padding: 40px 20px;
+    border-radius: 8px;
+    margin-top: 20px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section:nth-of-type(2) h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.feature-blocks {
+    display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
 }
 
-section div > div {
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+.feature-block {
+    background: #f4f4f4;
     padding: 20px;
+    border-radius: 8px;
+    text-align: center;
     flex: 1 1 calc(25% - 40px);
     max-width: calc(25% - 40px);
 }
 
-section div > div img {
+.feature-block img {
     width: 100%;
     border-radius: 8px;
+    margin-bottom: 20px;
 }
 
-/* FAQ */
-section div div {
-    flex: 1 1 calc(50% - 40px);
-    max-width: calc(50% - 40px);
+.feature-block h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
 }
 
-/* Footer */
-footer {
-    background: #333;
-    color: #fff;
-    padding: 20px 0;
-}
-
-footer div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-footer img {
-    height: 40px;
-}
-
-footer a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 10px;
+.feature-block p {
+    font-size: 16px;
 }
