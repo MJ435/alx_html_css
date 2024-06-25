@@ -274,6 +274,73 @@ main section:nth-of-type(2) h2 {
     font-size: 16px;
 }
 
-.membership-block button:hover {
+.membership-block button: hover {
     background: #2980b9;
+}
+/* FAQ */
+.faq-section {
+    background: #fff;
+    color: #333;
+    padding: 40px 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.faq-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.faq-blocks {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.faq-block {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.faq-block h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.faq-block p {
+    font-size: 16px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+footer nav {
+    margin-bottom: 10px;
+}
+
+footer nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer nav a: hover {
+    text-decoration: underline;
+}
+
+footer img {
+    height: 40px;
 }
