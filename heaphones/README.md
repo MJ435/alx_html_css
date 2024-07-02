@@ -25,7 +25,7 @@ To get a local copy up and running, follow these steps:
 1. **Clone the repository**:
    ```sh
    git clone https://https://github.com/MJ435/alx_html_css.git
-2. **Navigate to the project directory
+2. **Navigate to the project directory**:
    cd alx_html_css/headphones
    
-4. Open index.html in preferred web browser.
+4. Open index.html in your preferred web browser.
